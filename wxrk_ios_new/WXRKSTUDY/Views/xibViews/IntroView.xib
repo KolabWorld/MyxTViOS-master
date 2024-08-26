@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Aquawax-Pro-Heavy.ttf">
+            <string>AquawaxPro-Heavy</string>
+        </array>
+        <array key="Aquawax-Pro-Regular.ttf">
+            <string>AquawaxPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="IntroView" id="iN0-l3-epB" customClass="IntroView" customModule="WXRKSTUDY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bg gradient" translatesAutoresizingMaskIntoConstraints="NO" id="3Xr-N9-CCK">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="X - Login" translatesAutoresizingMaskIntoConstraints="NO" id="VDF-Xl-3No">
+                    <rect key="frame" x="-170" y="0.0" width="651" height="546"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="546" id="SR9-fO-VKH"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="casual-life-3d-girl-child-with-vr-glasses" translatesAutoresizingMaskIntoConstraints="NO" id="B09-Zl-oJ4">
+                    <rect key="frame" x="60" y="107" width="290" height="359"/>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6v1-ZU-Hx1">
+                    <rect key="frame" x="37.666666666666657" y="386" width="315" height="76"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 93" translatesAutoresizingMaskIntoConstraints="NO" id="JmB-Cj-9LZ">
+                            <rect key="frame" x="16" y="16" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="CfJ-U7-dwJ"/>
+                                <constraint firstAttribute="width" constant="44" id="WCO-IX-mKx"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$CX Get it?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSO-Pc-4iY">
+                            <rect key="frame" x="76" y="5" width="234" height="66"/>
+                            <fontDescription key="fontDescription" name="AquawaxPro-Heavy" family="Aquawax Pro" pointSize="18"/>
+                            <color key="textColor" red="0.1764705882352941" green="0.73333333333333328" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.054901960784313725" green="0.10980392156862745" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="JmB-Cj-9LZ" firstAttribute="leading" secondItem="6v1-ZU-Hx1" secondAttribute="leading" constant="16" id="BKf-ja-pun"/>
+                        <constraint firstItem="xSO-Pc-4iY" firstAttribute="leading" secondItem="JmB-Cj-9LZ" secondAttribute="trailing" constant="16" id="DPy-nJ-Xbu"/>
+                        <constraint firstAttribute="width" constant="315" id="Eoa-cv-vom"/>
+                        <constraint firstAttribute="trailing" secondItem="xSO-Pc-4iY" secondAttribute="trailing" constant="5" id="GGa-jj-CcY"/>
+                        <constraint firstAttribute="height" constant="76" id="HEO-Bb-t4L"/>
+                        <constraint firstItem="JmB-Cj-9LZ" firstAttribute="centerY" secondItem="6v1-ZU-Hx1" secondAttribute="centerY" id="SuF-5f-v8y"/>
+                        <constraint firstItem="xSO-Pc-4iY" firstAttribute="top" secondItem="6v1-ZU-Hx1" secondAttribute="top" constant="5" id="YmR-sN-jwn"/>
+                        <constraint firstAttribute="bottom" secondItem="xSO-Pc-4iY" secondAttribute="bottom" constant="5" id="uoH-4x-lWf"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPK-Aj-0iv">
+                    <rect key="frame" x="321" y="554" width="59" height="34"/>
+                    <color key="backgroundColor" red="0.050980392156862744" green="0.19607843137254902" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="nmW-3h-Mea"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AquawaxPro-Heavy" family="Aquawax Pro" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="    SKIP    ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="skipAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="gH3-cW-Kfc"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Rj-zC-1Ig">
+                    <rect key="frame" x="-10" y="567.66666666666663" width="76" height="7"/>
+                    <color key="backgroundColor" red="0.1764705882352941" green="0.73333333333333328" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="7" id="pmI-hq-cyo"/>
+                        <constraint firstAttribute="width" constant="76" id="wMK-tc-pos"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" red="0.1764705882352941" green="0.73333333333333328" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQz-vN-Zrj">
+                    <rect key="frame" x="30" y="686.33333333333337" width="330" height="103.66666666666663"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">We are all about eSports, but we care about your mental health, too. So we’re paying you $MYX tokens to get off the phone and put in WORK in the real world.</string>
+                    <fontDescription key="fontDescription" name="AquawaxPro-Regular" family="Aquawax Pro" pointSize="18"/>
+                    <color key="textColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CXMMUNITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HG0-z8-yMS">
+                    <rect key="frame" x="30" y="632.33333333333337" width="223" height="38"/>
+                    <fontDescription key="fontDescription" name="AquawaxPro-Heavy" family="Aquawax Pro" pointSize="33"/>
+                    <color key="textColor" red="0.99215686274509807" green="0.99215686274509807" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fQz-vN-Zrj" firstAttribute="top" secondItem="HG0-z8-yMS" secondAttribute="bottom" constant="16" id="3bq-or-kTx"/>
+                <constraint firstItem="VDF-Xl-3No" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-170" id="5aC-id-dMf"/>
+                <constraint firstItem="HG0-z8-yMS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="7QG-NB-abw"/>
+                <constraint firstAttribute="trailing" secondItem="VDF-Xl-3No" secondAttribute="trailing" constant="-91" id="K41-VG-ale"/>
+                <constraint firstAttribute="bottom" secondItem="fQz-vN-Zrj" secondAttribute="bottom" constant="54" id="X1A-Cj-ZQo"/>
+                <constraint firstItem="fQz-vN-Zrj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="bQZ-iP-8QX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fQz-vN-Zrj" secondAttribute="trailing" constant="30" id="boU-iL-ITC"/>
+                <constraint firstItem="3Rj-zC-1Ig" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-10" id="dvE-p6-tpV"/>
+                <constraint firstItem="6v1-ZU-Hx1" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="eYK-ig-bHP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lPK-Aj-0iv" secondAttribute="trailing" constant="10" id="ede-iP-X6U"/>
+                <constraint firstItem="B09-Zl-oJ4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-40" id="fbZ-3p-BmA"/>
+                <constraint firstItem="VDF-Xl-3No" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gnC-Ez-8Sm"/>
+                <constraint firstItem="3Rj-zC-1Ig" firstAttribute="centerY" secondItem="lPK-Aj-0iv" secondAttribute="centerY" id="jjA-ow-MMM"/>
+                <constraint firstItem="B09-Zl-oJ4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="sMS-kh-eD9"/>
+                <constraint firstItem="B09-Zl-oJ4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="vdy-ZO-jHI"/>
+                <constraint firstAttribute="bottom" secondItem="3Rj-zC-1Ig" secondAttribute="bottom" constant="269.5" id="wK8-In-IJg"/>
+                <constraint firstItem="6v1-ZU-Hx1" firstAttribute="top" secondItem="VDF-Xl-3No" secondAttribute="bottom" constant="-160" id="xJE-ll-teb"/>
+            </constraints>
+            <connections>
+                <outlet property="btnSkip" destination="lPK-Aj-0iv" id="4ct-uv-JlY"/>
+                <outlet property="imgCharacter" destination="B09-Zl-oJ4" id="otu-xB-1wY"/>
+                <outlet property="lblIntroDisc" destination="fQz-vN-Zrj" id="E3R-lr-Bjk"/>
+                <outlet property="lblIntroTitle" destination="HG0-z8-yMS" id="8Nw-Wy-as0"/>
+                <outlet property="vwWorkGotIt" destination="6v1-ZU-Hx1" id="7Vd-2X-iKZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="97.767857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Bg gradient" width="375" height="812"/>
+        <image name="Group 93" width="44" height="44"/>
+        <image name="X - Login" width="336" height="346"/>
+        <image name="casual-life-3d-girl-child-with-vr-glasses" width="166.33332824707031" height="359"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

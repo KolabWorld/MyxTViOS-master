@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Aquawax-Pro-Medium.ttf">
+            <string>AquawaxPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SponsoredCollectionCell" customModule="WXRKSTUDY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="283" height="168"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="283" height="168"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siD-LQ-EHy">
+                        <rect key="frame" x="30" y="10" width="223" height="148"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gedeget" translatesAutoresizingMaskIntoConstraints="NO" id="6Ad-ZS-Ffk">
+                                <rect key="frame" x="0.0" y="0.0" width="223" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="1DU-pC-fxA"/>
+                                </constraints>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMy-mD-cuE">
+                                <rect key="frame" x="-10" y="10" width="86" height="28"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sponsored" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m12-Pa-XoL">
+                                        <rect key="frame" x="10" y="4" width="71" height="20"/>
+                                        <fontDescription key="fontDescription" name="AquawaxPro-Medium" family="Aquawax Pro" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.10980392160000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="m12-Pa-XoL" firstAttribute="leading" secondItem="xMy-mD-cuE" secondAttribute="leading" constant="10" id="0i4-l3-EmJ"/>
+                                    <constraint firstAttribute="width" constant="86" id="ObY-UN-wOw"/>
+                                    <constraint firstItem="m12-Pa-XoL" firstAttribute="top" secondItem="xMy-mD-cuE" secondAttribute="top" constant="4" id="TVR-qR-rxQ"/>
+                                    <constraint firstAttribute="height" constant="28" id="YEn-Y9-hiV"/>
+                                    <constraint firstAttribute="bottom" secondItem="m12-Pa-XoL" secondAttribute="bottom" constant="4" id="hXL-L8-Nqh"/>
+                                    <constraint firstAttribute="trailing" secondItem="m12-Pa-XoL" secondAttribute="trailing" constant="5" id="whL-An-laa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xMy-mD-cuE" firstAttribute="top" secondItem="siD-LQ-EHy" secondAttribute="top" constant="10" id="1Wc-Jz-OU1"/>
+                            <constraint firstItem="6Ad-ZS-Ffk" firstAttribute="top" secondItem="siD-LQ-EHy" secondAttribute="top" id="CWQ-qx-AXb"/>
+                            <constraint firstAttribute="trailing" secondItem="6Ad-ZS-Ffk" secondAttribute="trailing" id="KHZ-fs-0rx"/>
+                            <constraint firstItem="xMy-mD-cuE" firstAttribute="leading" secondItem="siD-LQ-EHy" secondAttribute="leading" constant="-10" id="Lq1-d2-E9f"/>
+                            <constraint firstItem="6Ad-ZS-Ffk" firstAttribute="leading" secondItem="siD-LQ-EHy" secondAttribute="leading" id="XxM-dB-rtu"/>
+                            <constraint firstAttribute="trailing" secondItem="6Ad-ZS-Ffk" secondAttribute="trailing" id="gqC-mP-wmQ"/>
+                            <constraint firstItem="6Ad-ZS-Ffk" firstAttribute="leading" secondItem="siD-LQ-EHy" secondAttribute="leading" id="jOp-WP-jP4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="siD-LQ-EHy" secondAttribute="bottom" constant="10" id="AvX-qx-uVx"/>
+                <constraint firstItem="siD-LQ-EHy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="BzE-eM-FNX"/>
+                <constraint firstAttribute="trailing" secondItem="siD-LQ-EHy" secondAttribute="trailing" constant="30" id="Xfy-Q9-LeN"/>
+                <constraint firstItem="siD-LQ-EHy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="kWm-o6-JGm"/>
+            </constraints>
+            <size key="customSize" width="283" height="168"/>
+            <point key="canvasLocation" x="306.52173913043481" y="133.25892857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="gedeget" width="2000" height="1333"/>
+    </resources>
+</document>

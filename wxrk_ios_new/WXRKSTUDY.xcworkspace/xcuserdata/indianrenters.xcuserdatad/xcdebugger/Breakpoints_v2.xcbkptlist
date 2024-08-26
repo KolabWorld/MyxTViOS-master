@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A2C4703B-7B66-4806-9D62-72B96DC9C01A"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37E0FC8B-626B-4A4D-992C-48038BF03768"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "hmsFrom(seconds:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8759D02A-9111-4105-888B-A45F34F1B494"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Events/TwitchVideoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E062171C-C35D-48BF-944D-3B3F7BDEEF51"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Events/TwitchVideoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewWillDisappear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED6B6476-F3DB-467A-91B1-45A6777BBDA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Dashboard/HomeView/HomeViewController_API_xt.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "watchTimeDataAPI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFD0E8A3-A6D8-4246-B973-7B6E153918D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "displayProfileData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DFD0E8A3-A6D8-4246-B973-7B6E153918D1 - f7c07546cbea7417"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyxTV.DashboardProfileCell.displayProfileData() -&gt; ()"
+                  moduleName = "MyxTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indianrenters/Desktop/Git/wxrk_ios_new/WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2583">
+               </Location>
+               <Location
+                  uuid = "DFD0E8A3-A6D8-4246-B973-7B6E153918D1 - f7c07546cbea7417"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyxTV.DashboardProfileCell.displayProfileData() -&gt; ()"
+                  moduleName = "MyxTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indianrenters/Desktop/Git/wxrk_ios_new/WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2914">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C19C5C3-BD8B-4125-969B-608FADC19241"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "displayProfileData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C19C5C3-BD8B-4125-969B-608FADC19241 - f7c07546cbea74d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyxTV.DashboardProfileCell.displayProfileData() -&gt; ()"
+                  moduleName = "MyxTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indianrenters/Desktop/Git/wxrk_ios_new/WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "3179">
+               </Location>
+               <Location
+                  uuid = "0C19C5C3-BD8B-4125-969B-608FADC19241 - 227e9d92772dffba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Swift.Int, Swift.Int) -&gt; () in MyxTV.DashboardProfileCell.displayProfileData() -&gt; ()"
+                  moduleName = "MyxTV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/indianrenters/Desktop/Git/wxrk_ios_new/WXRKSTUDY/Views/Cells/DashboardCell/DashboardProfileCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "209">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6552C1C-3B50-481D-8AF6-28F1BBB1CDC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WXRKSTUDY/Views/Events/TwitchVideoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "watchTimeDataAPI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

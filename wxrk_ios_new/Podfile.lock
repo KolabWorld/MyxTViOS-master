@@ -1,0 +1,46 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - lottie-ios (3.5.0)
+  - PTCardTabBar (1.0.2)
+  - SKCountryPicker (2.0.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Charts
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - PTCardTabBar
+  - SKCountryPicker
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - PTCardTabBar
+    - SKCountryPicker
+    - SVProgressHUD
+    - SwiftAlgorithms
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  PTCardTabBar: 9f94e31b447629aead75cd21cdaa6ae1f2c8bac6
+  SKCountryPicker: 9d4921503cad7224a14a150802bb71228adbd90f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 3478c80c25b30fc30e9d95705c44670085390a27
+
+COCOAPODS: 1.11.3

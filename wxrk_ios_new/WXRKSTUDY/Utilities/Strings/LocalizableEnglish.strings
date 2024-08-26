@@ -1,0 +1,13 @@
+/* 
+  LocalizableEnglish.strings
+  WXRKSTUDY
+
+  Created by Karamjeet Singh on 13/08/22.
+  
+*/
+
+"alert-connectionError" = "Connection Error";
+"alert-connectionErrorMSG" = "Error connecting to server, please try again later.";
+"alert-done" = "Done";
+"alert-cancel" = "Cancel";
+"alert-retry" = "Retry";

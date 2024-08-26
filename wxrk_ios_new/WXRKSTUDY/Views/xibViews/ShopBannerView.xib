@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShopBannerView" customModule="WXRKSTUDY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="336"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PW9-JZ-G6t">
+                    <rect key="frame" x="0.0" y="24" width="374" height="336"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uRn-Le-Vyi" customClass="PlayerView" customModule="WXRKSTUDY" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="374" height="336"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="PW9-JZ-G6t" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="1l1-ey-W85"/>
+                <constraint firstItem="uRn-Le-Vyi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Q8j-wY-P5o"/>
+                <constraint firstItem="uRn-Le-Vyi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QH3-GF-NWk"/>
+                <constraint firstItem="PW9-JZ-G6t" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="TjW-PC-pmv"/>
+                <constraint firstAttribute="bottom" secondItem="uRn-Le-Vyi" secondAttribute="bottom" id="Xan-ES-45i"/>
+                <constraint firstItem="PW9-JZ-G6t" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="dC9-Wg-iC8"/>
+                <constraint firstItem="uRn-Le-Vyi" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="f9x-0p-dEU"/>
+                <constraint firstItem="PW9-JZ-G6t" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="ssa-Ar-Zkd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgBanner" destination="PW9-JZ-G6t" id="tFB-3J-FGl"/>
+                <outlet property="videoPlayer" destination="uRn-Le-Vyi" id="v6f-j5-PlW"/>
+            </connections>
+            <point key="canvasLocation" x="523.1884057971015" y="-820.64732142857144"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
